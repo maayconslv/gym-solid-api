@@ -53,4 +53,8 @@ describe('Fetch User Check-ins Use Case', () => {
       expect.objectContaining({ gym_id: 'gym-22' }),
     ])
   })
+
+  it('error test', () => {
+    expect(1).toEqual(1)
+  })
 })

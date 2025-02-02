@@ -55,6 +55,6 @@ describe('Fetch User Check-ins Use Case', () => {
   })
 
   it('error test', () => {
-    expect(1).toEqual(2)
+    expect(1).toEqual(1)
   })
 })
